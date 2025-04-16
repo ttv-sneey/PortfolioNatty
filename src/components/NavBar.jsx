@@ -20,7 +20,7 @@ export default function NavBar({ onNavigate, activeSection }) {
 
   return (
     <motion.nav
-      className="fixed top-4 left-1/2 -translate-x-1/2 z-50 bg-black/40 backdrop-blur-md rounded-full px-2 py-2 flex gap-1 sm:gap-2 md:gap-4 shadow-lg border border-purple-700/20 max-w-full overflow-x-auto scrollbar-thin scrollbar-thumb-purple-400/30 scrollbar-track-transparent text-white"
+      className="fixed top-4 center -translate-x-1/2 z-50 bg-black/40 backdrop-blur-md rounded-full px-2 py-2 flex gap-1 sm:gap-2 md:gap-4 shadow-lg border border-purple-700/20 max-w-full overflow-x-auto scrollbar-thin scrollbar-thumb-purple-400/30 scrollbar-track-transparent text-white"
       initial={{ y: -60, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8 }}
