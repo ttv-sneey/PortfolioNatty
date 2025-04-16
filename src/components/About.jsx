@@ -27,7 +27,8 @@ const About = forwardRef((props, ref) => (
         Hi! I'm <span className="font-semibold text-purple-700 dark:text-purple-300">Arjun Natt</span>, a creative developer passionate about building beautiful, interactive web experiences. I love blending design, animation, and technology to craft memorable digital products.
       </p>
       <p className="mt-4">
-        My journey spans frontend development, UI/UX design, and motion graphics. I thrive on learning new tools and pushing the boundaries of what's possible on the web.
+        My journey spans frontend development, UI/UX design, and motion graphics.
+        I am a developing backend developer and I thrive on learning new tools and pushing the boundaries of what's possible on the web.
       </p>
     </motion.div>
   </motion.section>
